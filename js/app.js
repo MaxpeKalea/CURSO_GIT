@@ -1,5 +1,3 @@
-export class App {
-    constructor() {
-        console.log('Cargada App')
-    }
+export function app () {
+    console.log('Cargada función App')
 }
