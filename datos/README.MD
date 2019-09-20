@@ -4,4 +4,7 @@ git config --global alias.co commit   para en vez de commit decir co
 
 18:49 git status, git log
 
+enmendar = amend
+
 # Uso de Git: #
+
