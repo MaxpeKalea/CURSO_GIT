@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -15,4 +17,5 @@ header, footer {
 main {
     margin: 2rem;
     min-height: 60vh;
+    padding-top: 26vh;
 }
