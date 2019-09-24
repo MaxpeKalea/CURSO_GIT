@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Componentes</title>
+    <script src="./loader.js" type="module"></script> <!--  sin el type module el export daría un error -->
+</head>
+<body>
+    <header>
+        <h1>Prueba de Componentes</h1>
+    </header>
+        <boton-comprar></boton-comprar>
+        <boton-comprar>
+           <p slot="slot1">Comprar Ahora</p>
+           <p slot="slot2">Gracias por confiar tanto en nosotros</p>
+        </boton-comprar>
+        <boton-comprar>
+                <p slot="slot1">Reservar</p>
+                <p slot="slot2">Esperamos que te decidas pronto</p>
+             </boton-comprar>
+        <div>
+            <button>Conectar</button>
+        </div>   
+    <footer>
+        <address>Marta Valdés</address>
+    </footer>
+</body>
+</html>

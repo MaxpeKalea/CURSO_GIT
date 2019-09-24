@@ -1,8 +1,6 @@
 export class MiComponente extends HTMLElement {
-    constructor() {
-        super()
-
-        const template = `
+   set template() {
+       `
         <style>
         div {
             background-color: rgb(187, 238, 213);
@@ -16,6 +14,9 @@ export class MiComponente extends HTMLElement {
         <p>Esto es un componente</p>
         </div>
         `
+   }
+    constructor() {
+        super()
         
         const shadow = this.attachShadow({mode:'open'})
 
