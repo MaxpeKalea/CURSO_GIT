@@ -12,3 +12,12 @@ Versión más actual:
 - The Shadow DOM
 - ES6 Modules (Import/export)
 - (The HTML Template)
+
+
+https://www.polymer-project.org/
+
+https://polymer-library.polymer-project.org/3.0/docs/tools/polymer-cli
+
+https://stenciljs.com/
+
+movil 24,9 + grab bls
